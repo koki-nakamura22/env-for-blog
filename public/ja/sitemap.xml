@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/categories/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koki-nakamura22.github.io/blog/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://koki-nakamura22.github.io/blog/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/categories/hugo/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koki-nakamura22.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://koki-nakamura22.github.io/blog/ja/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/posts/</loc>
+    <lastmod>2019-09-15T22:39:57+10:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koki-nakamura22.github.io/blog/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://koki-nakamura22.github.io/blog/ja/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/about/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koki-nakamura22.github.io/blog/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://koki-nakamura22.github.io/blog/ja/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://koki-nakamura22.github.io/blog/ja/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://koki-nakamura22.github.io/blog/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://koki-nakamura22.github.io/blog/ja/tags/"
+                />
+  </url>
+  
+</urlset>

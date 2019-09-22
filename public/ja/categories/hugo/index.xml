@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Koki&#39;s personal blog</title>
+    <link>https://koki-nakamura22.github.io/blog/ja/categories/hugo/</link>
+    <description>Recent content in Hugo on Koki&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 15 Sep 2019 22:39:57 +1000</lastBuildDate>
+    
+	<atom:link href="https://koki-nakamura22.github.io/blog/ja/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo &#43; GitHub Pagesでブログを作成する方法</title>
+      <link>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</link>
+      <pubDate>Sun, 15 Sep 2019 22:39:57 +1000</pubDate>
+      
+      <guid>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</guid>
+      <description>本記事では、Hugo + GitHub Pagesの組み合わせでブログ環境を構築する方法について説明します。
+上から順番に読んでいただくと、ブログを作成できるような流れになっています。
+本記事の内容です。
+ 環境 前提条件 インストール サイトを作成 記事を作成 テーマを適用 ローカルでサーバ起動 GitHub PagesへDeploy  ゴール GitHub上でブログ用のリポジトリを作成 作成したリポジトリをクローン デプロイ用スクリプト作成 GitHub Pagesの設定 デプロイ  テーマ  テーマ一覧 個人的おすすめテーマ  参考にしたページ  環境 Windows10 (1903)
+前提条件  Chocolateyインストール済み Gitインストール済み  インストール 下記コマンドを実行します。コマンドを実行するディレクトリはどこでも良いです。
+choco install hugo -confirm choco install hugo-extended -confirm  サイトを作成 サイトを作成したいディレクトリで下記コマンドを実行します。
+[サイト名]には、好きなサイト名を入力してください。
+hugo new site [サイト名]  記事を作成 記事を作成するには、作成したサイトディレクトリのルートで下記コマンドを実行します。
+[ディレクトリ名]は、後述する各テーマに沿って指定します。
+[記事名]は、好きな記事名を入力してください。
+hugo new [ディレクトリ名]/[記事名].md  記事作成後は、自由に作成したMarkdownファイルを編集します。
+テーマを適用 本記事内では、hugo-future-imperfect-slimを適用します。</description>
+    </item>
+    
+    <item>
+      <title>Hugo &#43; GitHub Pagesでブログを作成する方法</title>
+      <link>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</link>
+      <pubDate>Sun, 15 Sep 2019 22:39:57 +1000</pubDate>
+      
+      <guid>https://koki-nakamura22.github.io/blog/ja/2019/09/15/how-to-make-blog-by-hugo-and-github-pages/</guid>
+      <description>本記事では、Hugo + GitHub Pagesの組み合わせでブログ環境を構築する方法について説明します。
+上から順番に読んでいただくと、ブログを作成できるような流れになっています。
+本記事の内容です。
+ 環境 前提条件 インストール サイトを作成 記事を作成 テーマを適用 ローカルでサーバ起動 GitHub PagesへDeploy  ゴール GitHub上でブログ用のリポジトリを作成 作成したリポジトリをクローン デプロイ用スクリプト作成 GitHub Pagesの設定 デプロイ  テーマ  テーマ一覧 個人的おすすめテーマ  参考にしたページ  環境 Windows10 (1903)
+前提条件  Chocolateyインストール済み Gitインストール済み  インストール 下記コマンドを実行します。コマンドを実行するディレクトリはどこでも良いです。
+choco install hugo -confirm choco install hugo-extended -confirm  サイトを作成 サイトを作成したいディレクトリで下記コマンドを実行します。
+[サイト名]には、好きなサイト名を入力してください。
+hugo new site [サイト名]  記事を作成 記事を作成するには、作成したサイトディレクトリのルートで下記コマンドを実行します。
+[ディレクトリ名]は、後述する各テーマに沿って指定します。
+[記事名]は、好きな記事名を入力してください。
+hugo new [ディレクトリ名]/[記事名].md  記事作成後は、自由に作成したMarkdownファイルを編集します。
+テーマを適用 本記事内では、hugo-future-imperfect-slimを適用します。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>このブログについて on Koki&#39;s personal blog</title>
+    <link>https://koki-nakamura22.github.io/blog/ja/about/</link>
+    <description>Recent content in このブログについて on Koki&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 15 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koki-nakamura22.github.io/blog/ja/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
