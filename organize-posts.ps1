@@ -1,26 +1,33 @@
-# Make language information.
+# Make posts' backup each language.
+# Make each language directories.
+$backup = "_postsBackup"
 $ja = "ja"
 $en = "en"
 
+if (!(Test-Path $backup)) {
+    New-Item $backup -ItemType Directory
+}
+$absoluteBackupDir = Convert-Path ".\${backup}"
+$absolutejJaDir = Join-Path $absoluteBackupDir $ja
+$absolutejEnDir = Join-Path $absoluteBackupDir $en
+if (!(Test-Path $absolutejJaDir)) {
+    New-Item $absolutejJaDir -ItemType Directory
+}
+if (!(Test-Path $absolutejEnDir)) {
+    New-Item $absolutejEnDir -ItemType Directory
+}
+
 # Go to posts directory.
 Set-Location .\content\posts
-
-# Make each language directories.
-if (!(Test-Path $ja)) {
-    New-Item $ja -ItemType Directory
-}
-if (!(Test-Path $en)) {
-    New-Item $en -ItemType Directory
-}
 
 # Copy posts to each language directories.
 $fileList = Get-ChildItem -File -Name
 foreach ($file in $fileList) {
     if ($file.contains(".${ja}.")) {
-        Copy-Item $file $ja
+        Copy-Item $file $absolutejJaDir
     }
     else {
-        Copy-Item $file $en
+        Copy-Item $file $absolutejEnDir
     }
 }
 
@@ -40,4 +47,4 @@ git push origin master
 # Come back to the project root.
 Set-Location .\..\..
 
-Write-Output -InputObject "The posts has been organized!"
+Write-Host "The posts has been organized!" -ForegroundColor "Cyan"
