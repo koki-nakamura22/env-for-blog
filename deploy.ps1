@@ -23,4 +23,4 @@ Set-Location .\..
 # Organize posts.
 powershell .\organize-posts.ps1
 
-Write-Output -InputObject "The web page has been updated!"
+Write-Host "The web page has been updated!" -ForegroundColor "Cyan"
