@@ -62,7 +62,7 @@ C:\WINDOWS\system32>choco -v
 
 Refer to the above article, let's install 7zip as a test.  
 Execute the following command on Command Prompt or PowerShell as Administrator.  
-When installing it, Command Prompt and Powershell will ask you if you want to continue. Press "Y" to continue a process.  
+When installing it, Command Prompt and Powershell will ask you if you want to continue. Press "Y" to continue a process.   
 ```powershell
 choco install 7zip
 ```
