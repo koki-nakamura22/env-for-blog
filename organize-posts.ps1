@@ -31,7 +31,13 @@ foreach ($file in $fileList) {
     }
 }
 
-# Add changes to git.
+# Add changes to git in posts directory.
+git add .
+
+# Go to posts backup directory.
+Set-Location ".\..\..\${backup}"
+
+# Add changes to git in backup directory.
 git add .
 
 # Create a commit message.
@@ -45,6 +51,6 @@ git commit -m $commitMsg
 git push origin master
 
 # Come back to the project root.
-Set-Location .\..\..
+Set-Location .\..
 
 Write-Host "The posts has been organized!" -ForegroundColor "Cyan"
