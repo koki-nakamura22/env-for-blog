@@ -8,6 +8,8 @@ disqusShortname         = ""
 googleAnalytics         = "UA-148138479-2"
 pluralizeListTitles     = false
 disableLanguages        = [""]
+pygmentsCodefences = true
+pygmentsStyle = "fruity"
 
 [permalinks]
   posts = "/:year/:month/:day/:filename/"
