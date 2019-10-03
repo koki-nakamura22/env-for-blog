@@ -5,6 +5,7 @@
   and follow the formatting and style given.
 */
 
+/* For the title of code block. */
 pre.chroma code {  
   margin-top: -28px;
   padding-top: 40px;
@@ -19,4 +20,37 @@ pre.chroma code {
   color: #485A60;
   font-size: 13px;
   font-weight: 400;
+}
+
+/* For the Copy button. */
+.highlight {
+    position: relative;
+}
+.highlight pre {
+    padding-right: 75px;
+}
+.highlight-copy-btn {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    border: 0;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 0.7em;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #777;
+    min-width: 55px;
+    text-align: center;
+}
+.highlight-copy-btn:hover {
+    background-color: #666;
+}
+
+.highlight code {
+  border: none;
+}
+
+.highlight pre {
+  background-color: #f8f8f8;
 }
