@@ -9,7 +9,7 @@ googleAnalytics         = "UA-148138479-2"
 pluralizeListTitles     = false
 disableLanguages        = [""]
 pygmentsCodefences = true
-pygmentsStyle = "fruity"
+pygmentsStyle = "vs"
 
 [permalinks]
   posts = "/:year/:month/:day/:filename/"
