@@ -27,7 +27,7 @@ pygmentsStyle = "vs"
   highlightjsTheme      = "github"
   highlightjsLang       = ["html", "css", "js", "toml", "bat", "winbat", "winbatch"]
   # Sets where "View More Posts" links to
-  viewMorePostsLink     = "/blog/"
+  viewMorePostsLink     = "/posts/"
   # Activate Estimated Reading Times, which appear in the post headers
   readingTime           = true
   # Sets which Social Share links appear in posts.
