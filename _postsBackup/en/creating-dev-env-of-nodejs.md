@@ -9,7 +9,7 @@ title = "Creating a development environment of Node.js (Use Express and VS Code)
 type = "post"
 
 +++
-This article explains how to how to create a development environment of Node.js (Use Express) including a function of hot reload. (VS Code)
+This article explains how to create a development environment of Node.js (Use Express) including a function of hot reload. (VS Code)
 
 The following lists are the table of contents about this article.
 
