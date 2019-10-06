@@ -22,7 +22,6 @@
     {{ else }}
       <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
-    <!-- <link href="{{ "css/syntax.css" | absURL }}" rel="stylesheet"> -->
   {{ end }}
   {{ .Scratch.Set "Permalink" .Permalink }}
   {{ .Scratch.Set "Title" .Title }}
