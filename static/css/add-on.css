@@ -54,3 +54,15 @@ pre.chroma code {
 .highlight pre {
   background-color: #f8f8f8;
 }
+
+/* For link destinations adjustment. */
+#site-main .post .content h1,
+#site-main .post .content h2,
+#site-main .post .content h3,
+#site-main .post .content h4,
+#site-main .post .content h5,
+#site-main .post .content h6 {
+  display: block;
+  padding-top: 60px;
+  margin-top: -60px;
+}
