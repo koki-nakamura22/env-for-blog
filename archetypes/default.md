@@ -19,6 +19,7 @@ The following lists are the table of contents about this article.
 ---
 
 # Target audience
+- Those who want to
 
 <br>
 ---
@@ -52,7 +53,7 @@ The following lists are the table of contents about this article.
 ---
 
 # 対象読者
-- Those who want to 
+- をしたい方
 
 <br>
 ---
