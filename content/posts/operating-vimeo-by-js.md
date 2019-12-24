@@ -2,10 +2,10 @@
 author = "Koki"
 categories = ["JavaScript"]
 date = 2019-12-24T13:15:49+11:00
-description = "Example codes about operating a embedded Vimeo video by JavaScript."
+description = "Example codes about operating an embedded Vimeo video by JavaScript."
 images = [""]
 linktitle = ""
-title = "Example codes about operating a embedded Vimeo video by JavaScript."
+title = "Example codes about operating an embedded Vimeo video by JavaScript."
 type = "post"
 
 +++
@@ -16,7 +16,7 @@ The following lists are the table of contents about this article.
 - <font color="#1111cc">[Target audience](#target-audience)</font>
 - <font color="#1111cc">[Environment](#environment)</font>
 - <font color="#1111cc">[Preconditions](#preconditions)</font>
-- <font color="#1111cc">[Operating a embedded Vimeo video by JavaScript](#operating-a-embedded-vimeo-video-by-javascript)</font>
+- <font color="#1111cc">[Operating an embedded Vimeo video by JavaScript](#operating-a-embedded-vimeo-video-by-javascript)</font>
   - <font color="#1111cc">[Loading the embedded Vimeo video to a HTML file](#loading-the-embedded-vimeo-video-to-a-html-file)</font>
   - <font color="#1111cc">[Create a JavaScript file for each HTML file](#create-a-javascript-file-for-each-html-file)</font>
   - <font color="#1111cc">[Create a JavaScript to operating the Vimeo video.](#create-a-javascript-to-operating-the-vimeo-video)</font>
@@ -44,7 +44,7 @@ Nothing.
 <br>
 ---
 
-# Operating a embedded Vimeo video by JavaScript
+# Operating an embedded Vimeo video by JavaScript
 ## Loading the embedded Vimeo video to a HTML file
 First, load the embedded Vimeo video to a HTML file by iframe.  
 In this article case, using a sample Vimeo video.
@@ -96,7 +96,7 @@ window.onload = () => {
 ```
 
 ## Create a JavaScript to operating the Vimeo video.
-Finally, create a JavaScript file to operating a embedded Vimeo video.  
+Finally, create a JavaScript file to operating an embedded Vimeo video.  
 <br>
 First, load the Vimeo API in this file so that we can use this file as a common part.  
 Next, recieve player id and button ids from caller by arguments, then setting any events.  
