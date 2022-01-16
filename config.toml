@@ -10,6 +10,7 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 pygmentsCodefences = true
 pygmentsStyle = "vs"
+copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
 
 [permalinks]
   posts = "/:year/:month/:day/:filename/"
