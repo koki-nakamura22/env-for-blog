@@ -23,7 +23,4 @@ git push origin master
 # Come back to the project root.
 cd ./..
 
-# Organize posts.
-# powershell ./organize-posts.ps1
-
 echo "\e[36mThe web page has been updated!\e[m"
