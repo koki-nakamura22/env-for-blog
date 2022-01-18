@@ -68,6 +68,10 @@ pre.chroma code {
 }
 
 /* Not all characters upper case */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, #categories a {
   text-transform: none;
+}
+
+#site-nav .nav-title h1 {
+  font-size: 0.7em;
 }
