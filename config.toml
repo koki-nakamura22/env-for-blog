@@ -26,7 +26,7 @@ copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
   # Sets options for highlight.js
   highlightjs           = true
   highlightjsTheme      = "github"
-  highlightjsLang       = ["html", "css", "js", "toml", "bat", "winbat", "winbatch"]
+  highlightjsLang       = []
   # Sets where "View More Posts" links to
   viewMorePostsLink     = "/posts/"
   # Activate Estimated Reading Times, which appear in the post headers
