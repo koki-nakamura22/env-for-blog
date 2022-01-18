@@ -248,3 +248,8 @@ copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
   mastodon              = ""
   # Email
   email                 = "koki.nakamura22@gmail.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
