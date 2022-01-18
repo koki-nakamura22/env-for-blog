@@ -8,11 +8,7 @@
   <nav id="site-nav">
     <h1 class="nav-title">
       <a href="{{ "/" | relLangURL }}" class="nav">
-        {{ if or .IsHome (not .Site.Params.header.dynamicTitles) }}
-          {{ .Site.Params.header.navbarTitle  | safeHTML }}
-        {{ else }}
-          {{ i18n .Section | default .Title }}
-        {{ end }}
+        {{ with .Site.Params.intro.header }}<h1>{{ . | safeHTML }}</h1>{{ end }}
       </a>
     </h1>
     <menu id="site-nav-menu" class="flyout-menu menu">
