@@ -68,7 +68,10 @@ pre.chroma code {
 }
 
 /* Not all characters upper case */
-h1, h2, h3, h4, h5, h6, #categories a {
+h1, h2, h3, h4, h5, h6,
+#categories a,
+.stats .categories li a,
+.stats .tags li a {
   text-transform: none;
 }
 
