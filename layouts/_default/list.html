@@ -1,20 +1,14 @@
-<!doctype html>
-<html lang="{{ .Page.Language | default "en" }}">
-  {{ partial "head" . }}
-  <body>
-    {{ partial "site-header" . }}
-    <div id="wrapper">
-      {{ partial "site-intro" . }}
-      <main id="site-main">
-        {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-        {{ range $paginator.Pages }}
-          {{ .Render "content-list" }}
-        {{ end }}
-        {{ partial "pagination" . }}
-      </main>
-      {{ partial "site-sidebar" . }}
-      {{ partial "site-footer" . }}
-      {{ partial "scripts" . }}
-    </div>
-  </body>
-</html>
+{{ define "main" }}
+  {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
+  {{ range $paginator.Pages }}
+    {{ .Render "content-list" }}
+  {{ end }}
+  <div class="pagination">
+    {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}" class="button left"><span>{{ i18n "previous_page" }}</span></a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}" class="button right"><span>{{ i18n "next_page" }}</span></a>
+    {{ end }}
+  </div>
+{{ end }}
