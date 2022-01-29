@@ -21,43 +21,35 @@ The following lists are the table of contents about this article.
   - <font color="#1111cc">[Make PowerShell script file](#make-powershell-script-file)</font>
   - <font color="#1111cc">[How to use script files](#how-to-use-script-files)</font>
 
-<br>
----
 
-# Target audience
+## Target audience
 - Those who want to deploy articles automatically.
 
-<br>
----
 
-# Environment
+## Environment
 - Windows 10 (1903)
 - Command Prompt
 - Power Shell (5.1.18362.145)
 - Hugo (0.57.2)
 - Hugo-extended (0.58.2)
 
-<br>
----
 
-# Preconditions
+## Preconditions
 - Manage blog posts on GitHub.
 - Cloned Hugo blog repository as "public" directory.
 
-<br>
----
 
-# How to deploy articles automatically
+## How to deploy articles automatically
 Make script files, then execute it.  
 In this case, use batch file and Powershell script file because use batch file is easier to execute PowerShell script file.
 
-## Make batch file
+### Make batch file
 Make "deploy.bat" file in blog root directory and copy and paste the following codes to it.
 ```bat
 powershell -NoProfile -ExecutionPolicy Unrestricted .\deploy.ps1
 ```
 
-## Make PowerShell script file
+### Make PowerShell script file
 Make "deploy.ps1" file in blog root directory and copy and paste the following codes to it.
 ```powershell
 # Build the project.
@@ -85,11 +77,9 @@ Set-Location .\..
 Write-Host "The web page has been updated!" -ForegroundColor "Cyan"
 ```
 
-## How to use script files
+### How to use script files
 Execute "deploy.bat".  
 
-<br>
----
 
 That it! It's easy!  
 Have a good blog life!!

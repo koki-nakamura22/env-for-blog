@@ -21,30 +21,22 @@ The following lists are the table of contents about this article.
   - <font color="#1111cc">[Adding CSS code](#adding-css-code)</font>
 - <font color="#1111cc">[Reference articles](#reference-articles)</font>
 
-<br>
----
 
-# Target audience
+## Target audience
 - Those who want to add a copy code button to code block on Hugo blog.
 
-<br>
----
 
-# Environment
+## Environment
 - Hugo 0.57.2
 - Hugo-extended 0.58.2
 
-<br>
----
 
-# Preconditions
+## Preconditions
 - Installed Hugo and Hugo-extended
 
-<br>
----
 
-# Adding copy code button
-## Adding JavaScript code
+## Adding copy code button
+### Adding JavaScript code
 Add the following code to static/js/add-on.js.  
 I use IIFE (Immediately Invoked Function Expression) because I want to narrow the scope of a variable.
 ```javascript:add-on.js
@@ -104,7 +96,7 @@ I use IIFE (Immediately Invoked Function Expression) because I want to narrow th
 })();
 ```
 
-## Adding CSS code
+### Adding CSS code
 Add the following code to static/css/add-on.css.
 ```css:add-on.css
 .highlight {
@@ -135,8 +127,6 @@ Add the following code to static/css/add-on.css.
 <br>
 That's it!
 
-<br>
----
 
-# Reference articles
+## Reference articles
 <div class="blog-card" style="padding:12px;margin:15px 0;border:1px solid #ddd;word-wrap:break-word;max-width:474px;width:auto;border-radius:5px;"><div class="blog-card-thumbnail" style="float:right;"><a href="https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/" class="blog-card-thumbnail-link" target="_blank"><img src="http://capture.heartrails.com/120x120/shorten?https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/" class="blog-card-thumb-image wp-post-image" alt="12436288584_94d6bc46d2_b.jpg" style="width:100px;height:100px;"></a></div><div class="blog-card-content" style="margin-left:0;margin-right:110px;line-height:120%;"><div class="blog-card-title" style="margin-bottom:5px;"><a href="https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/" class="blog-card-title-link" style="font-weight:bold;text-decoration:none;color:#111;" target="_blank">Adding click-to-copy buttons to a Hugo powered blog</a></div><div class="blog-card-excerpt" style="color:#333;font-size:90%;">xxxxxxxxxx</div></div><div class="blog-card-footer" style="font-size:70%;color:#777;margin-top:10px;clear:both;"><span class="blog-card-hatena"><a href="http://b.hatena.ne.jp/entry/https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/" border="0" alt="" /></a></span></div></div>

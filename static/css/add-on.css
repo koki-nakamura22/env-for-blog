@@ -63,8 +63,36 @@ pre.chroma code {
 #site-main .post .content h5,
 #site-main .post .content h6 {
   display: block;
-  padding-top: 60px;
-  margin-top: -60px;
+}
+
+#site-main .post .content h2 {
+  font-size: 1.1em;
+  padding-left: 0.5em;
+  color: #494949;
+  background: #eaf3ff;
+  border-left: solid 5px #516ab6;
+}
+
+#site-main .post .content h3 {
+  font-size: 0.9em;
+  padding-left: 0.2em;
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+}
+
+#site-main .post .content h3:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #5472cd;
+  bottom: -3px;
+  width: 20%;
+}
+
+#site-main .post .content h4 {
+  font-size: 0.9em;
+  padding-left: 0.2em;
+  position: relative;
 }
 
 /* Not all characters upper case */

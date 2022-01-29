@@ -21,44 +21,36 @@ type = "post"
   - <font color="#1111cc">[PowerShellスクリプトファイルを作成](#powershell%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90)</font>
   - <font color="#1111cc">[スクリプトファイルの使い方](#%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9)</font>
 
-<br>
----
 
-# 対象読者
+## 対象読者
 - Hugoでブログを作成しておりかつ自動でデプロイしたい方
 
-<br>
----
 
-# 環境
+## 環境
 - Windows 10 (1903)
 - Command Prompt
 - Power Shell (5.1.18362.145)
 - Hugo (0.57.2)
 - Hugo-extended (0.58.2)
 
-<br>
----
 
-# 前提条件
+## 前提条件
 - GitHub上でHugoのブログ記事を管理している
 - GitHub上のブログリポジトリを"public"ディレクトリとしてクローン済
 
-<br>
----
 
-# 自動デプロイの仕組みを作る
+## 自動デプロイの仕組みを作る
 スクリプトファイルを作成し、それを実行することで自動デプロイを行います。  
 今回はbatファイルとPowerShellのスクリプトファイルの両方を使います。  
 batファイルを使用する理由は、PowerShellスクリプトファイルを実行するのが楽になるからです。
 
-## batファイルを作成
+### batファイルを作成
 "deploy.bat"というファイルをブログのルートディレクトリに作成し、下記のコードをペーストします。
 ```bat
 powershell -NoProfile -ExecutionPolicy Unrestricted .\deploy.ps1
 ```
 
-## PowerShellスクリプトファイルを作成
+### PowerShellスクリプトファイルを作成
 "deploy.ps1"というファイルをブログのルートディレクトリに作成し、下記のコードをペーストします。
 ```powershell
 # Build the project.
@@ -86,9 +78,8 @@ Set-Location .\..
 Write-Host "The web page has been updated!" -ForegroundColor "Cyan"
 ```
 
-## スクリプトファイルの使い方
-"deploy.bat"を実行するだけです。
-<br>
----
+### スクリプトファイルの使い方
+"deploy.bat"を実行するだけです。  
+
 Hugoのブログ記事を自動デプロイする仕組みについては以上です。  
 良いブログライフを！

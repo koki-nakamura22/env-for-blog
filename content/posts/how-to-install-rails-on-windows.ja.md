@@ -20,26 +20,20 @@ type = "post"
 - <font color="#1111cc">[RubyとRuby on Railsがインストールされたことを確認](#ruby%E3%81%A8ruby-on-rails%E3%81%8C%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%95%E3%82%8C%E3%81%9F%E3%81%93%E3%81%A8%E3%82%92%E7%A2%BA%E8%AA%8D)</font>
 - <font color="#1111cc">[参考にさせていただいたページ](#%E5%8F%82%E8%80%83%E3%81%AB%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%84%E3%81%9F%E3%83%9A%E3%83%BC%E3%82%B8)</font>
 
-# 対象読者
+## 対象読者
 - Windows 10にRuby on Rails環境を作成したい方
 
-<br>
----
 
-# 環境
+## 環境
 - Windows 10 (1903)
 - Chocolatey (0.10.15)
 
-<br>
----
 
-# 前提条件
+## 前提条件
 - Chocolateyインストール済み
 
-<br>
----
 
-# インストール方法
+## インストール方法
 下記のコマンドたちを管理者権限のコマンドプロンプトもしくはPowerShellで実行します。  
 
 ```bat
@@ -78,10 +72,8 @@ choco install ruby --version=2.4.2.2 -y
 gem install rails -v 5.2.2
 ```
 
-<br>
----
 
-# RubyとRuby on Railsがインストールされたことを確認
+## RubyとRuby on Railsがインストールされたことを確認
 それぞれ下記のコマンドをコマンドプロンプトもしくはPowerShellで実行し、インストールされたことを確認します。
 ```bat
 ruby -v
@@ -96,10 +88,8 @@ C:\Users\testuser>rails -v
 Rails 6.0.0
 ```
 
-<br>
----
 
-# 参考にさせていただいたページ
+## 参考にさせていただいたページ
 <div class="blog-card" style="padding:12px;margin:15px 0;border:1px solid #ddd;word-wrap:break-word;max-width:474px;width:auto;border-radius:5px;"><div class="blog-card-thumbnail" style="float:right;"><a href="https://qiita.com/toriiico/items/a0765ffdc0419512ae53" class="blog-card-thumbnail-link" target="_blank"><img src="http://capture.heartrails.com/120x120/shorten?https://qiita.com/toriiico/items/a0765ffdc0419512ae53" class="blog-card-thumb-image wp-post-image" alt="12436288584_94d6bc46d2_b.jpg" style="width:100px;height:100px;"></a></div><div class="blog-card-content" style="margin-left:0;margin-right:110px;line-height:120%;"><div class="blog-card-title" style="margin-bottom:5px;"><a href="https://qiita.com/toriiico/items/a0765ffdc0419512ae53" class="blog-card-title-link" style="font-weight:bold;text-decoration:none;color:#111;" target="_blank">chocolateyでruby on rails環境を構築 - Qiita</a></div><div class="blog-card-excerpt" style="color:#333;font-size:90%;">xxxxxxxxxx</div></div><div class="blog-card-footer" style="font-size:70%;color:#777;margin-top:10px;clear:both;"><span class="blog-card-hatena"><a href="http://b.hatena.ne.jp/entry/https://qiita.com/toriiico/items/a0765ffdc0419512ae53" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/https://qiita.com/toriiico/items/a0765ffdc0419512ae53" border="0" alt="" /></a></span></div></div>
 
 <div class="blog-card" style="padding:12px;margin:15px 0;border:1px solid #ddd;word-wrap:break-word;max-width:474px;width:auto;border-radius:5px;"><div class="blog-card-thumbnail" style="float:right;"><a href="https://prog-8.com/docs/rails-env-win" class="blog-card-thumbnail-link" target="_blank"><img src="http://capture.heartrails.com/120x120/shorten?https://prog-8.com/docs/rails-env-win" class="blog-card-thumb-image wp-post-image" alt="12436288584_94d6bc46d2_b.jpg" style="width:100px;height:100px;"></a></div><div class="blog-card-content" style="margin-left:0;margin-right:110px;line-height:120%;"><div class="blog-card-title" style="margin-bottom:5px;"><a href="https://prog-8.com/docs/rails-env-win" class="blog-card-title-link" style="font-weight:bold;text-decoration:none;color:#111;" target="_blank">Ruby on Railsの環境構築をしてみよう！(Windows) | プログラミングの入門なら基礎から学べるProgate[プロゲート]</a></div><div class="blog-card-excerpt" style="color:#333;font-size:90%;">xxxxxxxxxx</div></div><div class="blog-card-footer" style="font-size:70%;color:#777;margin-top:10px;clear:both;"><span class="blog-card-hatena"><a href="http://b.hatena.ne.jp/entry/https://prog-8.com/docs/rails-env-win" target="_blank"><img border="0" src="http://b.hatena.ne.jp/entry/image/https://prog-8.com/docs/rails-env-win" border="0" alt="" /></a></span></div></div>
