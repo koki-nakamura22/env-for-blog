@@ -79,4 +79,15 @@
   document.querySelectorAll(".highlight pre").forEach((el) => {
     el.style.backgroundColor = "";
   });
+
+  // Scrolling when a user clicks the anchor links
+  // Reference: https://senoweb.jp/note/fixheader-anchorlink/
+  $('#site-main .post a[href^="#"]').click(function() {
+    const speed = 1000;
+    const href = $(this).attr("href");
+    const target = $(href == "#" || href == "" ? 'html' : decodeURI(href));
+    const position = target.offset().top - $("#site-header").height() - 10;
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+  });
 })();
