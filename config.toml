@@ -64,7 +64,7 @@ copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Koki's personal blog"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    paragraph             = "Another fine, responsive site template by <a href='https://html5up.net'>HTML5 UP</a>."
     rssIntro              = true
     socialIntro           = true
 
