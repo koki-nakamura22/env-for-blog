@@ -15,31 +15,20 @@ This article explains how to .
 The following lists are the table of contents about this article.
 
 
-<br>
----
-
-# Target audience
+## Target audience
 - Those who want to
 
-<br>
----
 
-# Environment
+## Environment
 
-<br>
----
 
-# Preconditions
+## Preconditions
 
-<br>
----
 
-# Contents
+## Contents
 
-<br>
----
 
-# Reference articles
+## Reference articles
 
 
 
@@ -49,28 +38,18 @@ The following lists are the table of contents about this article.
 この記事の内容です。
 
 
-<br>
----
 
-# 対象読者
+## 対象読者
 - をしたい方
 
-<br>
----
 
-# 環境
+## 環境
 
-<br>
----
 
-# 前提条件
+## 前提条件
 
-<br>
----
 
-# コンテンツ
+## コンテンツ
 
-<br>
----
 
-# 参考にさせていただいたページ
+## 参考にさせていただいたページ
