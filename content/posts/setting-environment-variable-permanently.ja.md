@@ -30,7 +30,7 @@ type = "post"
 
 ## 環境
 
-- Windows
+- Windows 10
 
 ## 前提条件
 
