@@ -52,4 +52,4 @@ The following lists are the table of contents about this article.
 ## コンテンツ
 
 
-## 参考にさせていただいたページ
+## 参考にしたページ
