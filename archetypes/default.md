@@ -13,6 +13,8 @@ type = "post"
 This article explains how to .
 
 The following lists are the table of contents about this article.
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 
 ## Target audience
@@ -36,7 +38,8 @@ The following lists are the table of contents about this article.
 この記事では、方法を説明します。
 
 この記事の内容です。
-
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 
 ## 対象読者
