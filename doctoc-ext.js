@@ -8,19 +8,18 @@ for (let i = 2; i < process.argv.length; i++) {
     execSync(`doctoc ${filePath}`);
     fs.readFile(filePath, "utf8", function (err, data) {
       if (err) throw err;
-      // Line head
+
       data = data.replace(
         /(- )(\[.*?\]\(.*?\)$)/gm,
-        '$1<font color="#1111cc">$2'
+        '$1<font color="#1111cc">$2</font>'
       );
-      // Line tail
-      data = data.replace(/(- <.*?>\[.*?\]\(.*\))/gm, "$1</font>");
+
       fs.writeFile(filePath, data, function (err) {
         if (err) throw err;
-        console.log(`${process.argv[i]} completed`);
+        console.info(`${process.argv[i]} completed`);
       });
     });
   } else {
-    console.log(`\x1b[31m${filePath} was not found.`);
+    console.error(`\x1b[31m${filePath} was not found.`);
   }
 }
