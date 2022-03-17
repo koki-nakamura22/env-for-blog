@@ -8,9 +8,10 @@ disqusShortname         = ""
 googleAnalytics         = "UA-148138479-2"
 pluralizeListTitles     = false
 disableLanguages        = [""]
-pygmentsCodefences = true
-pygmentsStyle = "vs"
-copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
+pygmentsCodefences      = true
+pygmentsStyle           = "vs"
+copyright               = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
+enableGitInfo           = true
 
 [permalinks]
   posts = "/:year/:month/:day/:filename/"
@@ -253,3 +254,6 @@ copyright = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[frontmatter]
+  lastmod = [':git', 'lastmod']
