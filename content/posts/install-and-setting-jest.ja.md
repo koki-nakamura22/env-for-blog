@@ -9,6 +9,8 @@ title = "Jestのインストール方法およびインテリセンスなどの�
 type = "post"
 
 +++
+<font color="red">[2022/03/17更新] インテリセンス設定時のインストールコマンドが間違っていたので修正。</font>
+
 この記事では、JavaScriptのテストフレームワークであるJestのインストール方法、インテリセンスなどの設定方法について説明します。
 
 この記事の内容です。
@@ -54,7 +56,7 @@ npm install --save-dev jest
 ### インテリセンス
 まずは、以下のコマンドでJestの型定義をインストールします。
 ```sh
-npm install --save-dev jest@types/jest
+npm install --save-dev @types/jest
 ```
 
 次に、プロジェクトのルートディレクトリに以下のファイルを **jsconfig.json** という名前で作成します。

@@ -5,10 +5,12 @@ date = 2022-03-12T22:24:57+09:00
 description = "This article explains how to install Jest, how to set up intellisense and how solving an import error."
 images = [""]
 linktitle = ""
-title = "About installing Jest, and how to set up intellicense and how solving an import error."
+title = "About installing Jest, and how to set up intellisense and how solving an import error."
 type = "post"
 
 +++
+<font color="red">[17/03/2022] Fix the npm install command in the set up intellisense section.</font>
+
 This article explains how to install Jest, how to set up intellisense and how solving an import error.
 
 The following lists are the table of contents about this article.
@@ -20,7 +22,7 @@ The following lists are the table of contents about this article.
 - <font color="#1111cc">[Environment](#environment)</font>
 - <font color="#1111cc">[Preconditions](#preconditions)</font>
 - <font color="#1111cc">[Install Jest](#install-jest)</font>
-- <font color="#1111cc">[Setup intellisense](#setup-intellisense)</font>
+- <font color="#1111cc">[Set up intellisense](#set-up-intellisense)</font>
 - <font color="#1111cc">[Set up for solving an import error](#set-up-for-solving-an-import-error)</font>
 - <font color="#1111cc">[Digression](#digression)</font>
   - <font color="#1111cc">[Why did I choose Jest for JavaScript testing?](#why-did-i-choose-jest-for-javascript-testing)</font>
@@ -50,10 +52,10 @@ npm install --save-dev jest
 ```
 
 
-## Setup intellisense
+## Set up intellisense
 Firstly, execute the below command to install Jest type definitions.
 ```sh
-npm install --save-dev jest@types/jest
+npm install --save-dev @types/jest
 ```
 
 Then create a **jsconfig.json** to the project root directory.  
