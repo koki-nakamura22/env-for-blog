@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Sitemap: https://koki-nakamura22.github.io/blog/sitemap.xml
+Sitemap: https://koki-nakamura22.github.io/blog/ja/sitemap.xml
+Sitemap: https://koki-nakamura22.github.io/blog/en/sitemap.xml
