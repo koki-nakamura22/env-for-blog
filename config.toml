@@ -257,4 +257,4 @@ enableRobotsTXT         = true
       unsafe = true
 
 [frontmatter]
-  lastmod = ['lastmod']
+  lastmod = [':git', 'lastmod']
