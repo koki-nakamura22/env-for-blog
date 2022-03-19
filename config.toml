@@ -256,4 +256,4 @@ enableGitInfo           = true
       unsafe = true
 
 [frontmatter]
-  lastmod = [':git', 'lastmod']
+  lastmod = ['lastmod']
