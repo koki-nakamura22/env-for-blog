@@ -129,12 +129,12 @@ enableRobotsTXT         = true
     pre               = "<i class='far fa-id-card'></i>"
     weight            = 2
 
-  [[menu.main]]
-    name              = "Posts"
-    identifier        = "posts"
-    url               = "posts/"
-    pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 3
+  # [[menu.main]]
+  #   name              = "Posts"
+  #   identifier        = "posts"
+  #   url               = "posts/"
+  #   pre               = "<i class='far fa-newspaper'></i>"
+  #   weight            = 3
 
   [[menu.main]]
     name              = "Categories"
@@ -178,12 +178,12 @@ enableRobotsTXT         = true
       pre               = "<i class='far fa-id-card'></i>"
       weight            = 2
 
-    [[Languages.ja.menu.main]]
-      name              = "記事一覧"
-      identifier        = "posts"
-      url               = "posts/"
-      pre               = "<i class='far fa-newspaper'></i>"
-      weight            = 3
+    # [[Languages.ja.menu.main]]
+    #   name              = "記事一覧"
+    #   identifier        = "posts"
+    #   url               = "posts/"
+    #   pre               = "<i class='far fa-newspaper'></i>"
+    #   weight            = 3
 
     [[Languages.ja.menu.main]]
       name              = "カテゴリ"
