@@ -15,7 +15,7 @@ enableGitInfo           = true
 enableRobotsTXT         = true
 
 [permalinks]
-  posts = "/:year/:month/:day/:filename/"
+  posts = "/:sections/:filename"
 
 [params]
   mainSections = ["blog", "post"]

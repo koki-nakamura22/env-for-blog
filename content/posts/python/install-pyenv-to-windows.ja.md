@@ -1,6 +1,6 @@
 +++
 author = "Koki"
-categories = ["Windows", "Python", "Chocolatey"]
+categories = ["Python", "Windows", "Chocolatey"]
 date = 2022-02-13T20:46:22+09:00
 description = "WindowsでChocolateyを使用し、pyenvをインストールする方法を説明します。"
 images = [""]

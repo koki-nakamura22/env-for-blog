@@ -1,6 +1,6 @@
 +++
 author = "Koki"
-categories = ["Windows", "Google Drive"]
+categories = ["Google Drive", "Windows"]
 date = 2022-02-19T19:53:40+09:00
 description = "本記事では、WindowsでGoogle Driveをアンインストールする時に「Googleドライブが使用中です。終了してからアンインストールしてください」と言われた時の対処法を説明します。コマンド一発で対処する方法も載せています。"
 images = [""]
