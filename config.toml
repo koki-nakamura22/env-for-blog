@@ -143,12 +143,12 @@ enableRobotsTXT         = true
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
 
-  [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "contact/"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
+  # [[menu.main]]
+  #   name              = "Contact"
+  #   identifier        = "contact"
+  #   url               = "contact/"
+  #   pre               = "<i class='far fa-envelope'></i>"
+  #   weight            = 6
 
 [Languages]
   # Each language has its own menu.
@@ -192,12 +192,12 @@ enableRobotsTXT         = true
       pre               = "<i class='fas fa-sitemap'></i>"
       weight            = 5
 
-    [[Languages.ja.menu.main]]
-      name              = "コンタクト"
-      identifier        = "contact"
-      url               = "contact/"
-      pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
+    # [[Languages.ja.menu.main]]
+    #   name              = "コンタクト"
+    #   identifier        = "contact"
+    #   url               = "contact/"
+    #   pre               = "<i class='far fa-envelope'></i>"
+    #   weight            = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
