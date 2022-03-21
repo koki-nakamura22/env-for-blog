@@ -7,7 +7,12 @@
     {{ end }}
   </div>
   <div class="meta">
-    <time datetime="{{ .Date }}">{{ .Render "date" }}</time>
+    <span><i class="fas fa-calendar-day" aria-hidden="true"></i><time class="entry-date" datetime="{{ .Date }}">{{ .Render "date" }}</time></span>
+    {{ $date := .Date.Format "02.01.2006" }}
+    {{ $lastmod := .Lastmod.Format "02.01.2006" }}
+    {{ if and ($lastmod) (gt $lastmod $date) }}
+      <span><i class="fas fa-sync" aria-hidden="true"></i><time class="update" datetime="{{ .Lastmod }}">{{ .Render "updated-date" }}</time></span>
+    {{ end }}
     {{ with .Params.author }}<p>{{ . }}</p>{{ end }}
     {{ if .Site.Params.ReadingTime }}<p>{{ i18n "reading_time" .ReadingTime }}</p>{{ end }}
   </div>
