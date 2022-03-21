@@ -1,13 +1,12 @@
 +++
 author = "Koki"
 categories = ["Homebrew"]
-date = 2022-03-20T15:50:48+09:00
+date = 2022-03-21T14:45:15+09:00
 description = 'This article explains how to solve an error message "error: Failed to merge in the changes" appears when executing brew update.'
 images = [""]
 linktitle = ""
 title = 'What to do when an error message "error: Failed to merge in the changes" appears when executing brew update.'
 type = "post"
-draft = true
 
 +++
 This article explains how to solve an error message "error: Failed to merge in the changes" appears when executing brew update.

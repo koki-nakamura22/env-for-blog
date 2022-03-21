@@ -1,13 +1,12 @@
 +++
 author = "Koki"
 categories = ["Homebrew"]
-date = 2022-03-20T15:50:51+09:00
+date = 2022-03-21T14:45:15+09:00
 description = "この記事では、brew updateを実行した時にerror: Failed to merge in the changesというエラーが表示され、Homebrewの更新に失敗した時の対処法について説明します。"
 images = [""]
 linktitle = ""
 title = "brew updateを実行した時にerror: Failed to merge in the changesというエラーが表示された時の対処法"
 type = "post"
-draft = true
 
 +++
 この記事では、brew updateを実行した時にerror: Failed to merge in the changesというエラーが表示され、Homebrewの更新に失敗した時の対処法について説明します。
