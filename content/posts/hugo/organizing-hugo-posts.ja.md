@@ -1,13 +1,12 @@
 +++
 author = "Koki"
 categories = ["Hugo"]
-date = 2022-03-20T16:16:09+09:00
+date = 2022-03-22T14:08:41+09:00
 description = "この記事では、記事URL/content/以下のディレクトリ構造と一緒にする方法を説明します。"
 images = [""]
 linktitle = ""
 title = "Hugoの記事URLを/content/以下のディレクトリ構造と一緒にする"
 type = "post"
-draft = true
 
 +++
 この記事では、記事URL/content/以下のディレクトリ構造と一緒にする方法を説明します。

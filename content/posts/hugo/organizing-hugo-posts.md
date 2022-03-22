@@ -1,13 +1,12 @@
 +++
 author = "Koki"
 categories = ["Hugo"]
-date = 2022-03-20T16:16:05+09:00
+date = 2022-03-22T14:08:41+09:00
 description = "This article explains how to setting Hugo article URLs structure as the same as under /content directory structure."
 images = [""]
 linktitle = ""
 title = "Setting Hugo article URLs structure as the same as under /content/ structure."
 type = "post"
-draft = true
 
 +++
 This article explains how to setting Hugo article URLs structure as the same as under /content directory structure.
