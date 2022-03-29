@@ -11,14 +11,7 @@
 <meta property="og:description" content="{{ .Description | default .Site.Params.meta.description }}">
 <meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
 <meta property="og:url" content="{{ .RelPermalink | absURL }}">
-{{- with or (.Params.openGraph) (.Params.images) -}}
-  {{ range . }}
-    <meta property="og:image" content="{{ .src | absURL }}">
-    <meta property="og:image:alt" content="{{ .alt }}">
-  {{- end -}}
-{{ else }}
-  <meta property="og:image" content="{{ .Site.Params.intro.pic.src | absURL }}">
-{{ end }}
+<meta property="og:image" content="{{ .Site.Params.intro.pic.src | absURL }}">
 
 {{ if .Site.Params.meta.favicon }}
   <link rel="manifest" href="{{ "favicon/site.webmanifest" | relURL}}{{ with .Site.Params.meta.faviconVersion }}?v={{ . }}{{ end }}">
