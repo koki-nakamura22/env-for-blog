@@ -13,6 +13,8 @@ pygmentsStyle           = "vs"
 copyright               = "Powered by Hugo. Copyright © 2022 Koki NAKAMURA"
 enableGitInfo           = true
 enableRobotsTXT         = true
+hasCJKLanguage          = true
+summaryLength           = 140
 
 [permalinks]
   posts = "/:sections/:filename"
