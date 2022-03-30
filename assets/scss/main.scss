@@ -987,11 +987,11 @@ figcaption {
   opacity: 0;
   transition: $hover-slow;
   width: 300px;
-  z-index: -1;
+  display: none;
   &.active {
     opacity: 1;
     height: 50px;
-    z-index: 0;
+    display: inherit;
   }
 }
 
@@ -1000,10 +1000,10 @@ figcaption {
   opacity: 0;
   line-height: 1.75em;
   transition: $hover-slow;
-  z-index: -1;
+  display: none;
   &.active {
     opacity: 1;
-    z-index: 0;
+    display: inherit;
   }
   flex-direction: column;
   align-items: center;
