@@ -15,7 +15,10 @@ $.each(toggles, function(toggle, menu) {
       $("#wrapper").addClass("overlay");
       $(".menu").not($(menu + ".menu")).removeClass("active");
       $(menu).addClass("active");
-      if (menu == "#search-input") {$("#search-results").toggleClass("active");}
+      if (menu == "#search-input") {
+        $("#search-results").toggleClass("active");
+        searchAndRenderResults(document.getElementById('search-input').value);
+      }
     }
   });
 });
@@ -109,16 +112,7 @@ window.onload = function () {
 
 function registerSearchHandler() {
   $searchInput.oninput = function(event) {
-    var query = event.target.value;
-    var results = search(query);  // Perform the search
-
-    // Render search results
-    renderSearchResults(results);
-
-    // Remove search results if the user empties the search phrase input field
-    if ($searchInput.value == '') {
-      $searchResults.innerHTML = '';
-    }
+    searchAndRenderResults(event.target.value);
   }
 }
 
@@ -147,4 +141,16 @@ function renderSearchResults(results) {
 
 function search(query) {
   return idx.search(query);
+}
+
+function searchAndRenderResults(query) {
+  var results = search(query);  // Perform the search
+
+  // Render search results
+  renderSearchResults(results);
+
+  // Remove search results if the user empties the search phrase input field
+  if ($searchInput.value == '') {
+    $searchResults.innerHTML = '';
+  }
 }
