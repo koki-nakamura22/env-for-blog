@@ -10,6 +10,10 @@
       "js/jquery-3.5.1.js",
       "js/fancybox.js",
       "js/lunr.js",
+      "js/lunr.stemmer.support.js",
+      "js/tinyseg.js",
+      "js/lunr.multi.js",
+      "js/lunr.ja.js",
       "js/util.js"
    ]
 }

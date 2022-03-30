@@ -76,11 +76,12 @@ window.onload = function () {
       // Build the index so Lunr can search it.  The `ref` field will hold the URL
       // to the page/post.  title, excerpt, and body will be fields searched.
       idx = lunr(function () {
+        this.use(lang === "ja" ? lunr.ja : lunr.multiLanguage('en', 'ja'));
         this.ref('ref');
         this.field('title');
         this.field('data');
         this.field('description');
-        this.field('body');
+        // this.field('body');
 
         // Loop through all the items in the JSON file and add them to the index
         // so they can be searched.
