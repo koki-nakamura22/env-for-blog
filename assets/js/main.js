@@ -56,7 +56,6 @@ window.onload = function () {
   // Set up for an Ajax call to request the JSON data file that is created by
   // Hugo's build process, with the template we added above
   var request = new XMLHttpRequest();
-  var query = '';
 
   // Get dom objects for the elements we'll be interacting with
   $searchResults = document.getElementById('search-results');
