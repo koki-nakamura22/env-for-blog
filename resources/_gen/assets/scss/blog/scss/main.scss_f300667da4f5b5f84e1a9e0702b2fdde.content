@@ -715,9 +715,16 @@ figcaption {
         min-width: 12.5em; }
         .nav-title a img {
           margin-top: -0.2em; } }
+.search-toggle:hover i.fas.fa-search,
+.share-toggle:hover i.fas.fa-share-alt,
+.lang-toggle:hover,
+.nav-toggle:hover i.fas.fa-bars {
+  color: #5bb7ae; }
+
 .share-toggle,
 .search-toggle {
-  display: none; }
+  display: none;
+  cursor: pointer; }
   @media (min-width: 425px) {
     .share-toggle,
     .search-toggle {
@@ -727,9 +734,13 @@ figcaption {
       .share-toggle i,
       .search-toggle i {
         vertical-align: middle; } }
+.lang-toggle {
+  cursor: pointer; }
+
 .nav-toggle {
   text-align: center;
-  width: 61px; }
+  width: 61px;
+  cursor: pointer; }
   @media (min-width: 1024px) {
     .nav-toggle {
       display: none; } }

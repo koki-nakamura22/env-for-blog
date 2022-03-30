@@ -956,9 +956,17 @@ figcaption {
   }
 }
 
+.search-toggle:hover i.fas.fa-search,
+.share-toggle:hover i.fas.fa-share-alt,
+.lang-toggle:hover,
+.nav-toggle:hover i.fas.fa-bars {
+  color:#5bb7ae;
+}
+
 .share-toggle,
 .search-toggle {
   display: none;
+  cursor: pointer;
   @include for-tablet-up {
     display: block;
     text-align: center;
@@ -969,9 +977,14 @@ figcaption {
   }
 }
 
+.lang-toggle {
+  cursor: pointer;
+}
+
 .nav-toggle {
   text-align: center;
   width: 61px;
+  cursor: pointer;
   @include for-desktop-up {
     display: none;
   }
