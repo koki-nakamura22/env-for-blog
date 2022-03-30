@@ -1,3 +1,5 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://koki-nakamura22.github.io/blog/"
 DefaultContentLanguage  = "en"
 title                   = "Koki's personal blog"
@@ -15,6 +17,14 @@ enableGitInfo           = true
 enableRobotsTXT         = true
 hasCJKLanguage          = true
 summaryLength           = 140
+
+[module]
+  [module.hugoVersion]
+  extended              = true
+  min                   = "0.62.0"
+
+[outputs]
+  home                  = ["html", "json", "rss"]
 
 [permalinks]
   posts = "/:sections/:filename"
@@ -71,6 +81,8 @@ summaryLength           = 140
     paragraph             = "Another fine, responsive site template by <a href='https://html5up.net'>HTML5 UP</a>."
     rssIntro              = true
     socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.

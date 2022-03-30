@@ -2,14 +2,14 @@
 author = "Koki"
 categories = ["Homebrew"]
 date = 2022-03-21T14:45:15+09:00
-description = 'This article explains how to solve an error message "error: Failed to merge in the changes" appears when executing brew update.'
+description = "This article explains how to solve an error message 'error: Failed to merge in the changes' appears when executing brew update."
 images = [""]
 linktitle = ""
-title = 'What to do when an error message "error: Failed to merge in the changes" appears when executing brew update.'
+title = "What to do when an error message 'error: Failed to merge in the changes' appears when executing brew update."
 type = "post"
 
 +++
-This article explains how to solve an error message "error: Failed to merge in the changes" appears when executing brew update.
+This article explains how to solve an error message 'error: Failed to merge in the changes' appears when executing brew update.
 
 The following lists are the table of contents about this article.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
