@@ -6,6 +6,14 @@ var toggles = {
   ".nav-toggle": "#site-nav-menu"
 };
 
+$("#search-input").on("keydown", function(e) {
+  // Press esc key
+  if (e.keyCode == 27) {
+    $(".menu").removeClass("active");
+    $("#wrapper").removeClass("overlay");
+  }
+});
+
 $.each(toggles, function(toggle, menu) {
   $(toggle).on("click", function() {
     if ($(menu).hasClass("active")) {
