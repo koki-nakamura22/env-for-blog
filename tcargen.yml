@@ -1,0 +1,17 @@
+template: static/img/og/ogp-template.png
+title:
+  fontSize: 65
+  fontStyle: Bold
+info:
+  start:
+    pX: 126
+    pY: 495
+  fontSize: 30
+  fontStyle: Regular
+  separator: " - "
+tags:
+  start:
+    pX: 990
+    pY: 495
+  fontStyle: Regular
+  fontSize: 0
