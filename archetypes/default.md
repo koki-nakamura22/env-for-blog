@@ -1,13 +1,17 @@
 +++
 author = "Koki"
 categories = [""]
+tags = [""]
 date = {{ .Date }}
-description = ""
-images = [""]
 linktitle = ""
 title = ""
+description = ""
+[[images]]
+  src = "/blog/img/og/{{ .Name }}.png"
+  alt = "The Open Graph logo"
+  stretch = "stretchH"
 type = "post"
-
+draft = true
 +++
 <!-- English -->
 This article explains how to .
