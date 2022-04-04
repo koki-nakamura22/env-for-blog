@@ -11,7 +11,8 @@
 <meta property="og:description" content="{{ .Summary }}">
 <meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
 <meta property="og:url" content="{{ .RelPermalink | absURL }}">
-<meta property="og:image" content="{{ .Site.Params.intro.pic.src | absURL }}">
+{{ $ogpimagepath := printf "/blog%s" .Site.Params.intro.pic.src }}
+<meta property="og:image" content="{{ $ogpimagepath | absURL }}">
 
 {{ if .Site.Params.meta.favicon }}
   <link rel="manifest" href="{{ "favicon/site.webmanifest" | relURL}}{{ with .Site.Params.meta.faviconVersion }}?v={{ . }}{{ end }}">
