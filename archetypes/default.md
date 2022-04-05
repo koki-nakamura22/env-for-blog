@@ -6,12 +6,12 @@ date = {{ .Date }}
 linktitle = ""
 title = ""
 description = ""
+type = "post"
+draft = true
 [[images]]
   src = "/blog/img/og/{{ .Name }}.png"
   alt = "The Open Graph logo"
   stretch = "stretchH"
-type = "post"
-draft = true
 +++
 <!-- English -->
 This article explains how to .
