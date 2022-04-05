@@ -8,10 +8,6 @@ title = ""
 description = ""
 type = "post"
 draft = true
-[[images]]
-  src = "/blog/img/og/{{ .Name }}.png"
-  alt = "The Open Graph logo"
-  stretch = "stretchH"
 +++
 <!-- English -->
 This article explains how to .
