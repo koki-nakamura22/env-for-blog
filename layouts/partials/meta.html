@@ -17,7 +17,8 @@
   {{ $ogImagePath := printf "/blog%s" $ogImagePathBase }}
   <meta property="og:image" content="{{ $ogImagePath | absURL }}">
 {{ else }}
-  <meta property="og:image" content="{{ .Site.Params.intro.pic.src | absURL }}">
+  {{ $ogImagePath := printf "/blog%s" .Site.Params.intro.pic.src }}
+  <meta property="og:image" content="{{ $ogImagePath | absURL }}">
 {{ end }}
 <meta property="og:image:alt" content="The Open Graph logo">
 
