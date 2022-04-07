@@ -11,6 +11,7 @@ for (let i = 2; i < process.argv.length; i++) {
   if (fs.existsSync(filePath)) {
     const commandStr = `tcardgen --fontDir ${fontDir} --output ${outputDir} --config ${configFilePath} ${filePath}`;
     execSync(commandStr);
+    console.info(`${process.argv[i]} completed`);
   } else {
     console.error(`\x1b[31m${filePath} was not found.`);
   }
