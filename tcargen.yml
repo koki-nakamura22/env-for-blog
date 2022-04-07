@@ -11,7 +11,7 @@ info:
   separator: " - "
 tags:
   start:
-    pX: 990
+    pX: 1100
     pY: 495
   fontStyle: Regular
   fontSize: 0
