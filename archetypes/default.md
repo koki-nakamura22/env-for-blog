@@ -1,13 +1,13 @@
 +++
 author = "Koki"
 categories = [""]
+tags = [""]
 date = {{ .Date }}
-description = ""
-images = [""]
 linktitle = ""
 title = ""
+description = ""
 type = "post"
-
+draft = true
 +++
 <!-- English -->
 This article explains how to .
