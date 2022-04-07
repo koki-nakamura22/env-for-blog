@@ -3,7 +3,6 @@
 <meta name="description" content="{{ .Summary }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="twitter:card" content="summary_large_image">
 {{- with .Site.Params.Social.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
 <!-- TODO: Add w/ better author support <meta name="twitter:creator" content="@.author" /> -->
 {{ with .Site.Title }}<meta property="og:site_name" content="{{ . }}">{{ end }}
@@ -14,10 +13,13 @@
 {{ $ogImagePathBase := printf "/img/og/%s.png" .File.BaseFileName }}
 {{ $ogImagePathForCheckExists := printf "/static%s" $ogImagePathBase }}
 {{ if fileExists $ogImagePathForCheckExists }}
+  <meta name="twitter:card" content="summary_large_image">
   {{ $ogImagePath := printf "/blog%s" $ogImagePathBase }}
   <meta property="og:image" content="{{ $ogImagePath | absURL }}">
 {{ else }}
-  <meta property="og:image" content="{{ .Site.Params.intro.pic.src | absURL }}">
+<meta name="twitter:card" content="summary">
+  {{ $ogImagePath := printf "/blog%s" .Site.Params.intro.pic.src }}
+  <meta property="og:image" content="{{ $ogImagePath | absURL }}">
 {{ end }}
 <meta property="og:image:alt" content="The Open Graph logo">
 
