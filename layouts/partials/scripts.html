@@ -55,4 +55,10 @@
 {{ if and .Site.Params.staticman.recaptcha.siteKey .Site.Params.staticman.recaptcha.encryptedKey }}
   <script src='https://www.google.com/recaptcha/api.js'></script>
 {{- end -}}
-{{- template "_internal/google_analytics_async.html" . -}}
+{{ if .Site.IsServer }}
+  <script type="text/javascript">
+    console.info("Disable Google Analytics on Localhost");
+  </script>
+{{ else}}
+  {{- template "_internal/google_analytics_async.html" . -}}
+{{ end }}
