@@ -7,7 +7,6 @@ linktitle = ""
 title = "Hugoサーバをローカルで起動している時のみGoogle Analyticsを無効にする"
 description = "この記事では、Hugoサーバをローカルで起動している時のみGoogle Analyticsを無効にする方法を説明します。これによって、ローカルの確認によりAnalytics情報が汚れることがなくなります。"
 type = "post"
-draft = true
 +++
 この記事では、Hugoサーバをローカルで起動している時のみGoogle Analyticsを無効にする方法を説明します。  
 これによって、ローカルの確認によりAnalytics情報が汚れることがなくなります。
