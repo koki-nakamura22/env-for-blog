@@ -76,10 +76,10 @@ brew install go
 ```
 
 インストールが終わったら、以下のコマンドを実行し初期化しておきます。  
-今回はGitHub上のモジュールを参照するため、引数であるimportpathにgithub.com/m/v2を指定しています。  
-(ただし、Versionが2だったかどうかは記憶が曖昧なので自信が無いです... 間違っていたら指摘をお願いします。)
+go mod initの引数には、適当なモジュール名を指定します。  
+今回は、他のプログラムから特にモジュールを呼び出さないので、私のブログ環境のリポジトリ名をそのまま指定しています。
 ```sh
-go mod init github.com/m/v2
+go mod init env-for-blog
 ```
 
 ### 4. tcardgenのインストールおよび設定
@@ -167,7 +167,7 @@ const configFilePath = "tcargen.yml";
 for (let i = 2; i < process.argv.length; i++) {
   const filePath = path.join(__dirname, process.argv[i]);
   if (fs.existsSync(filePath)) {
-    const commandStr = `tcardgen --fontDir ${fontDir} --output ${outputDir} --config ${configFilePath} ${filePath}`;
+    const commandStr = `~/go/bin/tcardgen --fontDir ${fontDir} --output ${outputDir} --config ${configFilePath} ${filePath}`;
     execSync(commandStr);
     console.info(`${process.argv[i]} completed`);
   } else {
