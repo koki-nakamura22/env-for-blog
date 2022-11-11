@@ -59,6 +59,16 @@
   <script type="text/javascript">
     console.info("Disable Google Analytics on Localhost");
   </script>
-{{ else}}
-  {{- template "_internal/google_analytics_async.html" . -}}
+{{ else }}
+  {{ with .Site.GoogleAnalytics }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ . }}');
+    </script>
+  {{ end }}
 {{ end }}
