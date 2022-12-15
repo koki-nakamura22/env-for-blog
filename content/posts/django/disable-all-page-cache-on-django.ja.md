@@ -73,7 +73,7 @@ conf/settings.pyのMIDDLEWAREリストへ、後ほど作成するミドルウェ
 ```python
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
-    'diagnose.middleware.nocache.NoCacheMiddleware', # これを追加
+    '[アプリ名].middleware.nocache.NoCacheMiddleware', # これを追加
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
