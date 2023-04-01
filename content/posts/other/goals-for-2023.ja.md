@@ -36,9 +36,17 @@ type = "post"
 
 ### 必達目標
 
-1. TOEIC L&R 730点以上取得
+1. TOEIC L&R 730点以上取得  
+2023/02/26受験分で達成。(2023/04/01追記)
+{{<tweet 1635478277170294784>}}
+
 2. フルタイムもしくは相当の仕事に就く（フリーランス、正社員関係なく）
-3. AWS Certified Cloud Practitioner合格
+
+
+3. AWS Certified Cloud Practitioner合格  
+2023/03/31に受験し合格。(2023/04/01追記)  
+<font color="#1111cc"><a href="https://www.credly.com/badges/13b40d84-2d61-46fc-bcd5-dc1f65b38933" target="_blank">認定バッジを確認できるページ</a></font>にて確認可能。
+
 4. AWS Certified Solutions Architect - Associate合格
 
 
