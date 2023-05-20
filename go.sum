@@ -92,6 +92,8 @@ github.com/GeertJohan/go.rice v1.0.0/go.mod h1:eH6gbSOAUv07dQuZVnBmoDP8mgsM1rtix
 github.com/GoogleCloudPlatform/cloudsql-proxy v0.0.0-20191009163259-e802c2cb94ae/go.mod h1:mjwGPas4yKduTyubHvD1Atl9r1rUq8DfVy+gkVvZ+oo=
 github.com/Ladicle/tcardgen v0.0.0-20220108063857-a426c849a470 h1:5LXOj3gQw4IkcmlxT9JURD8zMgACw18osRRt4inqZxc=
 github.com/Ladicle/tcardgen v0.0.0-20220108063857-a426c849a470/go.mod h1:fe5RcD3LUlr3wUot/Vby9Bj1zuwtvsNy7i/i7zllqDg=
+github.com/Ladicle/tcardgen v0.0.0-20220719232438-7db044706f48 h1:KfgmW0uFsN22EoskTvqLNIZzpj0aHPuPlWJC8aKZDZY=
+github.com/Ladicle/tcardgen v0.0.0-20220719232438-7db044706f48/go.mod h1:fe5RcD3LUlr3wUot/Vby9Bj1zuwtvsNy7i/i7zllqDg=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=
 github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578/go.mod h1:uGdkoq3SwY9Y+13GIhn11/XLaGBb4BfwItxLd5jeuXE=

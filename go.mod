@@ -3,7 +3,7 @@ module env-for-blog/v2
 go 1.18
 
 require (
-	github.com/Ladicle/tcardgen v0.0.0-20220108063857-a426c849a470 // indirect
+	github.com/Ladicle/tcardgen v0.0.0-20220719232438-7db044706f48 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gohugoio/hugo v0.88.1 // indirect
