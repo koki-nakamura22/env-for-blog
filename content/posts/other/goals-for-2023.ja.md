@@ -47,8 +47,9 @@ type = "post"
 2023/03/31に受験し合格。(2023/04/01追記)  
 <font color="#1111cc"><a href="https://www.credly.com/badges/13b40d84-2d61-46fc-bcd5-dc1f65b38933" target="_blank">認定バッジを確認できるページ</a></font>にて確認可能。
 
-4. AWS Certified Solutions Architect - Associate合格
-
+4. AWS Certified Solutions Architect - Associate合格  
+2023/05/19に受験し合格。(2023/05/21追記)  
+<font color="#1111cc"><a href="https://www.credly.com/badges/6e87c733-54cd-48fb-99ff-8872c437cdb3" target="_blank">認定バッジを確認できるページ</a></font>にて確認可能。
 
 ### 努力目標
 
