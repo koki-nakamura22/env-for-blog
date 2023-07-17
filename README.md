@@ -15,5 +15,5 @@ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git themes/hug
 
 ## Launch dev server locally
 ```sh
-hugo server
+hugo server -D -p 8000
 ```
